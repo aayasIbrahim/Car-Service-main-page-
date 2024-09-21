@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --font:"Manrope";
+    --textColor:#FFFFFf;
+}
+
+.container{
+ margin: auto;
+ /* width: 1360px; */
+ /* height: 502px; */
+
+
+}
+.row{
+    display: flex;
+    /* gap: 8px; */
+    /* flex-wrap: wrap; */
+}
+
+#bannar{
+    background-color: #141414;
+    padding-bottom: 16px;
+}
+#bannar .container{
+    background-image: url(./image/Background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     width: 1360px; 
+    height: 680px;
+
+}
+
+
+
+/* bannar end */
+/* service start */
+#service {
+    background-color: #141414;
+}
+#service .container{
+    width: 1360px;
+}
+#service .container .row{
+    gap: 8px;
+    flex-wrap: wrap;
+}
+#service .carService{
+    width: 443px; 
+    height: 243px;
+    border-radius: 32px;
+    background-color:  #1E1E1E;
+     display: flex; 
+    
+}
+#service .carService .title{
+    width: 50%;
+    /* background-color: antiquewhite; */
+}
+#service .carService h4{
+    font-family:var(--font);
+font-size: 24px;
+font-weight: 500;
+line-height: 33.6px;
+text-align: left;
+padding: 40px 0 40px 40px;
+color:var(--textColor);
+
+}
+#service .carService p{
+    font-family: var(--font);
+font-size: 16px;
+font-weight: 500;
+line-height: 22.4px;
+text-align: left;
+padding: 0 28px 40px 40px;
+color:var(--textColor);
+
+}
+#service .carService:hover{
+    background-color:#FF001D;
+    
+}
+#service .carService:hover .brandPic button {
+    background-color:#141414;
+    
+}
+#service .carService .brandPic{
+    width: 50%;
+    position: relative;
+}
+   
+#service .carService .brandPic img{
+  display: block;
+  width: 100%;
+  height: 100%;
+
+}
+
+#service .carService .brandPic button{
+ /* padding: 8px; */
+ width: 58px;
+height:25px;
+border-radius: 40px ;
+text-align: center;
+line-height: 25px;
+position: absolute;
+top: 15px;
+right: 24px;
+font-family:var(--font);
+font-size: 12px;
+font-weight: 700;
+line-height: 16.8px;
+color: var(--textColor);
+background-color:#FF001D;
+}
+@media (max-width: 676px) { 
+    #service{
+        background-color: #141414; 
+    }
+    #service .container{
+        margin:auto;
+    }
+    
+    #service .row{
+        display:block;
+    }
+
+}
+/* service end */
