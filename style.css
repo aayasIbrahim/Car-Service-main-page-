@@ -42,10 +42,97 @@ h1,h2,h3,h4,h5,h6{
     background-size: cover;
      width: 1360px; 
     height: 680px;
+    border-radius: 32px;
+
+}
+#bannar .container .contains{
+    padding: 80px 80px;
+}
+
+#bannar nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #282828;
+    padding-bottom: 24px;
+    /* text-align: center; */
+}
+#bannar nav .logo img{
+    margin-right: 48px;
+}
+#bannar nav button{
+    width:111.5px;
+height: Hug 42px;
+padding: 15px 16px 15px 16px;
+gap: 8px;
+border-radius: 8px ;
+opacity: 0px;
+font-family: var(--font);
+font-size: 16px;
+font-weight: 600;
+line-height: 22.4px;
+background-color: #FF001D;
+color: #FFFFFf;
+display: inline-block;
+
+}
+#bannar nav button a{
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+    
+    color: #FFFFFf
+}
+#bannar nav li{
+    display: inline-block;
+}
+#bannar nav li a{
+    font-family:var(--font);
+font-size: 16px;
+font-weight: 500;
+line-height: 22.4px;
+color: #FFFFFf;
+padding:48px 24px;
+
 
 }
 
+ #bannar .heading h1{
+    padding: 112px 500px 36px 0;
+    color: #FFFFFf;
+    font-family:var(--font);
+font-size: 64px;
+font-weight: 500;
+line-height: 70.4px;
 
+
+ }
+ #bannar .heading a{
+    width:260px;
+height: 61px;
+padding: 24px 40px 24px 48px;
+gap: 4px;
+border-radius: 16px;
+opacity: 0px;
+display: inline-block;
+text-align: center;
+font-family: var(--font);
+font-size: 18px;
+font-weight: 600;
+line-height: 12.6px;
+color: #fff;
+
+ }
+ #bannar .heading a:nth-of-type(1){
+    background-color: #FF001D;
+    margin-right: 16px;
+ }
+ #bannar .heading a:nth-of-type(2){
+    border: 2px solid #FFFFFf;
+ }
+ #bannar .heading a:nth-of-type(2):hover{
+    background-color: #FF001D;
+ }
 
 /* bannar end */
 /* service start */
