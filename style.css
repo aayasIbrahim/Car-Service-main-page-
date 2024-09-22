@@ -30,9 +30,12 @@ h1,h2,h3,h4,h5,h6{
     /* gap: 8px; */
     /* flex-wrap: wrap; */
 }
-
-#bannar{
+body{
     background-color: #141414;
+}
+/* bannar start */
+#bannar{
+    
     padding-bottom: 16px;
 }
 #bannar .container{
@@ -136,9 +139,7 @@ color: #fff;
 
 /* bannar end */
 /* service start */
-#service {
-    background-color: #141414;
-}
+
 #service .container{
     width: 1360px;
 }
@@ -152,7 +153,7 @@ color: #fff;
     border-radius: 32px;
     background-color:  #1E1E1E;
      display: flex; 
-    
+    cursor: pointer;
 }
 #service .carService .title{
     width: 50%;
@@ -229,3 +230,111 @@ background-color:#FF001D;
 
 }
 /* service end */
+/* footer start */
+#footer{
+    margin-top: 16px;
+    
+    color: #fff;
+}
+#footer .container{
+    width: 1360px; 
+    height: 680px;
+    border-radius: 32px;
+    border: 2px solid black;
+    background-color: #FF001D;
+    /* padding-top: 80px; */
+}
+#footer .row{
+    justify-content: space-between;
+}
+#footer .heading{
+    width: 45%;
+}
+#footer .heading h2{
+    font-family: var(--font);
+font-size: 56px;
+font-weight: 600;
+line-height: 61.6px;
+/* text-align: left; */
+padding: 80px 0 48px 80px;
+
+}
+#footer .heading p{
+    font-family: Manrope;
+font-size: 24px;
+font-weight: 500;
+line-height: 33.6px;
+/* text-align: left; */
+padding: 0px 0px 138px 80px;
+
+}
+#footer .heading .btn{
+    padding-left: 80px;
+    
+}
+#footer .heading .btn a:nth-of-type(1){
+    font-family: var(--font);
+font-size: 18px;
+font-weight: 600;
+/* line-height: 21.6px; */
+width:240px;
+height: 61px;
+padding: 24px 48px 24px 48px;
+gap: 10px;
+border-radius: 16px ;
+opacity: 0px;
+color: #141414;
+/* border: 2px solid #FFFFFf; */
+display: inline-block;
+text-align: center;
+line-height: 12px;
+background-color: #fff;
+}
+#footer .heading .btn a:nth-of-type(2){
+    font-family: var(--font);
+font-size: 18px;
+font-weight: 600;
+/* line-height: 21.6px; */
+width:240px;
+height: 61px;
+padding: 24px 48px 24px 48px;
+gap: 10px;
+border-radius: 16px ;
+opacity: 0px;
+color: #141414;
+border: 2px solid #FFFFFf;
+display: inline-block;
+text-align: center;
+line-height: 12px;
+color: #fff;
+padding-left: 13px;
+}
+#footer .heading .btn a:nth-of-type(2):hover{
+    background-color:#fff;
+    color: #141414;
+}
+#footer .menu{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#footer .card{
+
+    width:264px;
+    height: 159px;
+}
+#footer .card img{
+    padding: 80px 0px 36px 0;
+
+}
+#footer .card h3{
+    font-family: var(--font);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21.6px;
+    /* text-align: left; */
+    padding-bottom: 24px;
+    
+
+}
+/* footer end */
