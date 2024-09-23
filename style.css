@@ -73,6 +73,22 @@ font-family: var(--font);
 font-size: 16px;
 font-weight: 600;
 line-height: 22.4px;
+background-color: rgba(0, 0, 0, 0.255);
+color: #FFFFFf;
+display: inline-block;
+
+}
+#bannar nav button:hover{
+    width:111.5px;
+height: Hug 42px;
+padding: 15px 16px 15px 16px;
+gap: 8px;
+border-radius: 8px ;
+opacity: 0px;
+font-family: var(--font);
+font-size: 16px;
+font-weight: 600;
+line-height: 22.4px;
 background-color: #FF001D;
 color: #FFFFFf;
 display: inline-block;
@@ -96,7 +112,10 @@ font-weight: 500;
 line-height: 22.4px;
 color: #FFFFFf;
 padding:48px 24px;
-
+transition: 0.8s;
+}
+#bannar nav li a:hover{
+font-size: 18px;
 
 }
 
@@ -230,6 +249,121 @@ background-color:#FF001D;
 
 }
 /* service end */
+/* carModal start */
+ #carModal{
+    margin-top: 16px;
+    color: #282828;
+ }
+ #carModal .container{
+    width: 1360px;
+    height: 765px;
+    
+    border-radius: 32px;
+    
+    background-color: #FFFFFf;
+    padding-top: 16px;
+    
+ }
+ #carModal .heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+ }
+ #carModal .heading h2{
+    font-family:var(--font);
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 61.6px;
+    text-align: left;
+    padding: 85px 0 52px 80px;
+    
+ }
+ #carModal .heading .arrow{
+    padding-right: 80px;
+ }
+ #carModal .heading span{
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+    border: 1px solid black;
+   text-align: center;
+   line-height: 48px;
+   color: #FFFFFf;
+   background-color: #FF001D;
+   border-radius: 15%;
+   cursor: pointer;
+   
+ }
+ #carModal .heading span:nth-of-type(1){
+       background-color: #FFFFFf;
+       color: #5C5C5C !important;
+       border: none;
+ }
+ #carModal .heading span:nth-of-type(1):hover{
+       background-color: #FF001D;
+       color: #ffffff !important;
+ }
+ #carModal .row{
+    padding-left: 80px;
+ }
+ #carModal .row .adds  p{
+    font-family: var(--font);
+   font-size: 18px;
+font-weight: 500;
+line-height: 25.2px;
+padding: 24px 27px 22px 0;
+
+ }
+ #carModal .row .lastP{
+display: flex; 
+align-items: center;
+ }
+ #carModal .btnGrp{
+    width:1200px;
+height: 141px;
+margin-left: 80px;
+border-radius: 32px ;
+background-color: #F5F5F5;
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+ }
+ #carModal .btnGrp p{
+    font-family: var(--font);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25.2px;
+    text-align: left;
+    padding: 51px 20px 51px 40px;    
+    color: #282828;
+ }
+ #carModal .btnGrp a{
+    display: inline-block;
+    width:272px;
+    height: 61px;
+    padding: 24px 48px 24px 48px;
+    gap: 10px;
+    border-radius: 16px;
+    background-color: #fff;
+    margin: 40px 8px;
+    text-align: center;
+    font-family:var(--font);
+font-size: 16px;
+font-weight: 600;
+line-height: 19.2px;
+
+
+  color: #282828;
+    
+ }
+ #carModal .btnGrp a:hover{
+    background-color: #FF001D;
+  color: #fff;
+    
+ }
+/* carModal end */
 /* footer start */
 #footer{
     margin-top: 16px;
